@@ -1,0 +1,70 @@
+.about-title {
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--color-primary);
+    text-shadow: 3px 3px var(--color-primary-darker);
+    margin-top: 4rem;
+    margin-bottom: 0;
+    padding: 0rem 2rem;
+    transition: var(--transition);
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.timeline {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-timeline {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: var(--color-primary-darker);
+    letter-spacing: 0.5px;
+}
+
+.timeline-description {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 50%;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.message {
+    text-align: center;
+    margin-top: 4rem;
+    width: 60%;
+    margin-bottom: 2rem;
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: var(--color-secondary);
+    letter-spacing: 0.5px;
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media screen and (max-width: 660px) { 
+    .timeline-description {
+        max-width: 90%;
+    }
+    .message {
+        width: 80%;
+    }
+}

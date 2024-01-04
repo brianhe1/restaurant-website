@@ -1,0 +1,162 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-second-container {
+    margin: 2.25rem;
+    padding-bottom: 3rem;
+    width: 90%;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    background: var(--color-secondary);
+}
+
+.menu-choice {
+    margin: 3rem 0rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.ny-menu-btn,
+.nj-menu-btn {
+    cursor: pointer;
+    background: var(--color-primary);
+    color: var(--color-primary-darker);
+    padding: 0.4rem 2rem;
+    padding-top: 0.6rem;
+    border-radius: 10px;
+    border: 3px solid var(--color-primary-darker);
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.ny-menu-btn:hover,
+.nj-menu-btn:hover {
+    background: var(--background-color);
+    color: var(--color-primary-darker);
+}
+
+.ny-menu,
+.nj-menu {
+    max-width: 70vw;
+    width: 90%;
+    background: var(--background-color);
+    margin: 0rem 2rem;
+    margin-bottom: 3rem;
+    padding: 3rem 3rem;
+    padding-top: 0;
+    border-radius: 25px;
+    border: 6px solid var(--color-primary-darker);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6rem;
+}
+
+.course-title {
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-top: 3.5rem;
+    color: var(--color-primary-darker);
+    transition: var(--transition);
+}
+
+.divider {
+    border-top: 3px solid var(--color-primary-darker); 
+    margin: 2rem 0rem; 
+    transition: var(--transition);
+}
+
+.name-and-price {
+    display: flex;
+    justify-content: space-between;
+    transition: var(--transition);
+}
+
+.name-and-spice {
+    display: flex;
+}
+
+.food-name,
+.food-price {
+    margin-bottom: 0;
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    color: var(--color-primary-darker);
+    transition: var(--transition);
+}
+
+.food-info {
+    margin-top: 6px;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    transition: var(--transition);
+}
+
+.spice-rating {
+    margin-left: 0.25rem;
+    margin-top: 1.2rem;
+}
+
+.spice-icon {
+    color: var(--color-secondary);
+    font-size: 1rem;
+}
+
+.flavors {
+    margin-left: 1rem;
+}
+
+.drink-flavors {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    transition: var(--transition);
+}
+
+/* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+    .ny-menu,
+    .nj-menu {
+        padding: 2rem 2rem;
+        grid-gap: 3rem;
+    }
+    .course-title {
+        font-size: 2.75rem;
+    }
+    .name-and-price {
+        flex-direction: column;
+    }
+    .food-price {
+        margin-top: 0.5rem;
+    }
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media screen and (max-width: 660px) {
+    .ny-menu,
+    .nj-menu {
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        grid-gap: 0;
+    }
+    .name-and-price {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .menu-second-container {
+        padding-bottom: 0.5rem;
+    }
+}

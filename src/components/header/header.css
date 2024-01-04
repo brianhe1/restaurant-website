@@ -1,0 +1,64 @@
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: calc(100vh - 8rem);
+    min-height: 300px;
+    border-radius: 25px;
+    margin: 0.25rem 2rem;
+    width: 90%;
+    max-width: 100vw;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ensures the image covers the container while maintaining aspect ratio */
+}
+
+.header-title {
+    font-family: 'Din SemiCond Bold';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    width: 70%;
+    color: var(--color-tertiary);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1; 
+    -webkit-text-stroke: 3px var(--color-primary-darker);
+    text-shadow: 4px 4px var(--color-primary-darker); /* Additional shadow for outline effect */
+    transition: var(--transition);
+}
+
+/* ==================== MEDIA QUERIES (MEDIUM DEVICES) ==================== */
+@media screen and (max-width: 1024px) {
+    .header-title {
+        font-size: 5.5rem;
+        letter-spacing: 0.5px;
+        -webkit-text-stroke: 2.75px var(--color-primary-darker);
+        text-shadow: 4px 4px var(--color-primary-darker); /* Additional shadow for outline effect */
+    }
+}
+
+/* ==================== MEDIA QUERIES (SMALL DEVICES) ==================== */
+@media screen and (max-width: 660px) {
+    .header-title {
+        font-size: 4.25rem;
+        letter-spacing: 0.5px;
+        -webkit-text-stroke: 2.5px var(--color-primary-darker);
+        text-shadow: 3.25px 3.25px var(--color-primary-darker); /* Additional shadow for outline effect */
+    }
+}
