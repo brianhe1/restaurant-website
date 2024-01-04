@@ -6,8 +6,6 @@ import Menu from './pages/menu/Menu';
 import Order from './pages/order/Order';
 import Catering from './pages/catering/Catering';
 import Nav from './components/nav/Nav';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
 import {Routes, Route} from 'react-router-dom'
 
 const App = () => {
@@ -15,7 +13,7 @@ const App = () => {
     <div className="App">
       <Nav/>
       <Routes>
-        <Route path="/" element={<Home/>} />
+        <Route path="/" element={<Home/>}/>
         <Route path="/location" element={<Location/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/menu" element={<Menu/>} />

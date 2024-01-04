@@ -7,8 +7,8 @@ import "./index.css"
 const root = document.querySelector("#root");
 // React replaces the content of the 'root' element with the rendered content of the 'App' element
 ReactDOM.render(
-    <BrowserRouter>
-        <App/>
-    </BrowserRouter>,
-    root
-); 
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root')
+);
