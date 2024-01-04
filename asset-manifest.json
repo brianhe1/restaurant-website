@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/restaurant-website/static/css/main.8a11bad8.css",
+    "main.js": "/restaurant-website/static/js/main.57c8660f.js",
+    "static/media/order-header-img.jpg": "/restaurant-website/static/media/order-header-img.901600d6e11c07e0528a.jpg",
+    "static/media/catering-header-img.jpg": "/restaurant-website/static/media/catering-header-img.149340950c7b197a662f.jpg",
+    "static/media/logo.png": "/restaurant-website/static/media/logo.ea4ea7d33d970e622ef1.png",
+    "static/media/about-us-header-img.jpg": "/restaurant-website/static/media/about-us-header-img.c6ec5b1a6a14c710aee7.jpg",
+    "static/media/menu-header-img.jpg": "/restaurant-website/static/media/menu-header-img.838218a2dc43a5659be4.jpg",
+    "static/media/location-icon-1.jpg": "/restaurant-website/static/media/location-icon-1.2cd780cb4502f974609c.jpg",
+    "static/media/location-icon-2.jpg": "/restaurant-website/static/media/location-icon-2.d1e86c6a910a0642e690.jpg",
+    "static/media/header-pattern.jpg": "/restaurant-website/static/media/header-pattern.c5688d33b6d5bf80badc.jpg",
+    "static/media/location-header-img.jpg": "/restaurant-website/static/media/location-header-img.34bc03443f00bbfa9ff9.jpg",
+    "static/media/catering-homepage.jpg": "/restaurant-website/static/media/catering-homepage.4e68f8fda47b64a1e213.jpg",
+    "static/media/urw-din-semicondensed-bold.otf": "/restaurant-website/static/media/urw-din-semicondensed-bold.4b4434c0c1e5b09d2ebf.otf",
+    "static/media/menu-image.jpg": "/restaurant-website/static/media/menu-image.d39e23064b5260e909de.jpg",
+    "static/media/Fontspring-DEMO-quincycf-extrabolditalic.otf": "/restaurant-website/static/media/Fontspring-DEMO-quincycf-extrabolditalic.cf8b710ce159b3e5c00f.otf",
+    "index.html": "/restaurant-website/index.html",
+    "main.8a11bad8.css.map": "/restaurant-website/static/css/main.8a11bad8.css.map",
+    "main.57c8660f.js.map": "/restaurant-website/static/js/main.57c8660f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a11bad8.css",
+    "static/js/main.57c8660f.js"
+  ]
+}
